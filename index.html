@@ -9,10 +9,17 @@
 </head>
 <body>
 
-<ul>
-  <li contenteditable="true">Test text
-  </li>
+<div id="myDIV" class="header">
+  <h2>To Do List</h2>
+  <input type="text" id="myInput" placeholder="Enter Task Here">
+  <span onclick="newElement()" class="addBtn">Add</span>
+  <div id="tips">Click Task to Mark Complete/Incomplete or Edit</div>
+</div>
+
+<ul id="myUL">
+
 </ul>
+
 
 </body>
 </html>
